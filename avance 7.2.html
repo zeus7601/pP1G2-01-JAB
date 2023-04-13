@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>practica en clases</title>
+</head>
+<body>
+
+<p>Tarea  - UPC</p>
+
+<a>Operaciones Logicas</a>
+
+<p>EjercicioUno</p>
+<button onclick="EjercicioUno()" >EjercicioUno</button>
+
+<p>EjercicioDos</p>
+<button onclick="EjercicioDos()">EjercicioDos</button>
+
+<p>EjercicioTres</p>
+<button onclick="EjercicioTres()">EjercicioTres</button>
+
+<p>EjercicioCuatro</p>
+<button onclick="EjercicioCuatro()">EjercicioCuatro</button>
+
+<script>
+
+function Condicionalescompuestas_UsandoO(){
+    if(5>9){
+        
+    }
+}
+//CONDICIONALES COMPUESTAS
+function Condicionalescompuestas_UsandouY(){
+    if((5>9)&&(7!=5)){
+        alert("TRUE")
+    }else{
+        alert("FALSE")//F && T => F
+    }
+}
+//CONDICIONALES ANIDADAS
+function Condicionalescompuestas_UsandoO(){
+    if(5>9){
+        if(7!=5){
+            alert("TRUE")
+        else{
+            alert("FALSE")
+       }        
+    }
+    }
+}
+function EjercicioUno(){
+    if(((5 >= 5) == (9 < 10)) || ((10 >= 10) == false)){
+        alert("true")
+    }else{
+        alert("FALSE")
+    }
+}
+
+function EjercicioDos(){
+    if(((9 < 5) != true) || (false || (5 == 9))){
+        alert("true")
+    }else{
+        alert("FALSE")
+    }
+}
+
+function EjercicioTres(){
+    if((((7 >= 7) == true) || (false == true)) || !(7 > 7)){
+        alert("true")
+    }else{
+        alert("FALSE")
+    }
+}
+
+function EjercicioCuatro(){
+    if(((true || ! false) && (false)) != ((false || false) != (true))){
+        alert("true")
+    }else{
+        alert("FALSE")
+    }
+}
+
+
+//Codigo de Programacion - TERMINAS
+</script>
+
+</body>
+</html>
